@@ -45,9 +45,9 @@
 .description-container{
     display: flex;
     flex-direction: column;
-    text-align: flex-start;
+   
     flex-wrap: wrap;
-    align-content: initial;
+    align-content: flex-end;
     row-gap: 30px;
     height: 215px;
     width: 410px;
@@ -113,9 +113,19 @@
     position: absolute;
     left: 376px;
     top: 500px;
-    color: #353535;
+   
     
 
+}
+
+.connect-us{
+    color: #353535;
+    opacity: 0.8;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
 }
 
 .icons-container{
@@ -126,6 +136,11 @@
 /* Form container */
 .title-container{
     color: #090909;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
 }
 
 .message-form-container{
@@ -153,14 +168,18 @@
     display: flex;
     flex-direction: column;
     text-align: initial;
+    font-size: 14px;
+    row-gap: 4px;
 }
 
 .fillups{
-    height: 30px;
-    width: 450px;
-    border-radius: 10px;
-    border-color: rgb(211, 206, 206);
+    height: 40px;
+    width: 425px;
+    border-radius: 2px;
+    background: #FFFFFF;
+    border: 1px solid rgba(9, 9, 9, 0.3);
     box-shadow: none;
+    box-sizing: border-box;
 }
 .connect-button{
     background-color: #f5a023;

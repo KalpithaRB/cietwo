@@ -55,7 +55,7 @@ export function ContactUs() {
           </div>
 
           <div className="connectUs-container">
-            <span> Connect Us</span>
+            <span className="connect-us"> Connect Us</span>
             <div className="icons-container">
             <svg width="34" height="32" viewBox="0 0 34 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="33.336" height="31.9972" rx="15.9986" fill="white"/>
@@ -81,24 +81,24 @@ export function ContactUs() {
 
       <div className="message-form-container">
         <div className="title-container">
-            <p> <strong>Send us a Message</strong></p>
+            <span> <strong>Send us a Message</strong></span>
         </div>
         <div className="inputfields-container">
             <form className="formy">
             <label className="title">Full Name:
-                 <input className="fillups" type="text" />
+                 <input className="fillups" type="text" placeholder="eg. Kiran Kumar"/>
             </label>
 
             <label className="title">Phone Number:
-                 <input className="fillups" type="text" />
+                 <input className="fillups" type="text"  placeholder="Phone number"/>
             </label>
 
             <label className="title">Email:
-                 <input className="fillups" type="text" />
+                 <input className="fillups" type="text"  placeholder="eg. kirankumar1234@gmail.com"/>
             </label>
 
             <label className="title">Message:
-                 <input className="fillups" type="text" />
+                 <input className="fillups" type="text"  placeholder="Message"/>
             </label>
             </form>
         </div>
