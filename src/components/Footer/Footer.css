@@ -1,0 +1,161 @@
+/* form container */
+.feedback-form-container{
+    display: flex;
+    background-color: #f4f7fe;
+    height: 603px;
+    width: 1040px;
+    
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 89px;
+    margin-top: 98.5px;
+    
+
+
+}
+
+.contact-info-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #f5a023;
+    color: #090909;
+    height: 603px;
+    width: 500px;
+    row-gap: 35px;
+    padding-top: 20px;
+}
+
+.reachUs-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 45px;
+}
+
+.description-container{
+    display: flex;
+    flex-direction: column;
+    text-align: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    row-gap: 30px;
+}
+.details-container{
+    display: flex;
+    flex-direction: column;
+    text-align: initial;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.email-container{
+    display: flex;
+    column-gap: 20px;
+}
+
+.phone-container{
+    display: flex;
+    column-gap: 20px;
+}
+
+.location-container{
+    display: flex;
+    column-gap: 20px;
+}
+
+.connectUs-container{
+    display: flex;
+    justify-content: center;
+}
+/* Form container */
+.title-container{
+    color: #090909;
+}
+
+.message-form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 20px;
+    row-gap: 30px;
+}
+
+.inputfields-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.formy{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    text-align: initial;
+}
+
+.fillups{
+    height: 30px;
+    width: 450px;
+    border-radius: 10px;
+    border-color: rgb(211, 206, 206);
+    box-shadow: none;
+}
+.connect-button{
+    background-color: #f5a023;
+    color: #090909;
+    border: none;
+    height: 50px;
+    width: 300px ;
+    border-radius: 10px;
+}
+
+
+/* overall container */
+.footer-copyright-container{
+    background-color: #090909;
+    display: flex;
+    flex-direction: column;
+}
+
+/* footer container */
+.Footer-container{
+    /* background-color: #090909; */
+    height: 401px;
+    color: #f4f7fe ;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo-social-media-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.socialMedia-container{
+    display: flex;
+    column-gap: 2px;
+}
+
+.links-title-container{
+
+}
+
+.reachus-title-container{
+
+}
+
+.copyright-container{
+    /* border-top: 1px #f4f7fe ; */
+    width: 1300px;
+    /* background-color: #090909; */
+    color: #f4f7fe;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
