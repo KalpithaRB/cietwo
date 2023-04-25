@@ -98,13 +98,13 @@ export function ContactUs() {
             </label>
 
             <label className="title">Message:
-                 <input className="fillups" type="text"  placeholder="Message"/>
+                 <input className="message-fillups" type="text"  placeholder="Message"/>
             </label>
             </form>
         </div>
         <div className="button-container">
             <button className="connect-button">
-               <label>Connect</label> 
+               <label><strong>Connect</strong></label> 
             </button>
         </div>
       </div>
