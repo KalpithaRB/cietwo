@@ -121,32 +121,54 @@ function Footer() {
          <div className="footer-copyright-container">
           <div className="Footer-container">
             {/* <p>happy</p> */}
+            <div className="top-footer-container">
             <div className="logo-social-media-container">
               <div className="Logo-container">
-                <img src={baladi} alt="baladi"/>
+                <img className="baladi" src={baladi} alt="baladi"/>
               </div>
               <div className="socialMedia-container">
+
                 <div className="linkedin-container">
-                <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <img className="linkedin"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMsSURBVHgBxVi7bhNBFL27IYqoYoSEKJC8tIiHhYREx1JRIfEBSAklVQwthfkB5NDQ2jRUIKegAFHYEh/gpEIUKGtqpBgpQjGJPTk3vhOvR7vrfcwmRzrax507c/bO6846VABKKQ8XH1wFL4VM2+DQcZwe5YRLGQExPtgC9/DYBR+A141ia2BTTdEF16gsoPINFiMN8X0lhU8FXAc74C7YkChbEeRLpSzIp5xgQWBb6ioWwVCUnpAliEAW16Q8kLD3rYV+vu6KdG8/zZCIEpXeKQdQ/2tuJ23hhoS6EmF7MZmorfFYvcP9ZbIAGXfNRYV0/3um7ehIPYMoFWKX7AirSO/UkwrFzhgI+WIIU2QJaLMmk+y0l9yQcR2XbazW76OdyRwLu2QJaJN3irdgPaLhk2jV4pz399VVROmjROvnaKRukkVIl86PbV6neAGlcwY0bPJM5fsL8o4X0PYCJ56Ft0KvhtIFJJEOz2J+/x98NJnQXVxd16XfuH6FT5DQzBbYCDe6t2ghxRLx3Bj8n7QN99/DNt66cN0xJ4vYXia1o7W48rXBgi+JrCO+curgcjvG9gZt3qN49ECfZ6UHDigjHIeSlotFO8bTBNsO6GlhAdnFAYQ/Bi8eHtINs35E7X6CL5etsjD+uiEVgBk9PH/A0PgMHqysOD/w/MpwubKozswZbBQi9oBvxvMvyggWxtGymkWMx/TPfEUZoYWtUrnIsq964ICF8WLoUwFgDCUCEyAL7oB9V1bvSpGkEGPMIXvgdXWgBz+Ls5bXm1heTldOJxEcLC2MU53yzn6UOqKc9vT4Rm/ivHnyAdWL25qwCf9Bl53asDn/1fd4P8A4u6afl5ZoZLjzLA1CzwFFgw/PD+feyMGgRecEOWu0ogw6UfPpjJF01tAF/LgTUsnCujpBTCrEWWSHzgjShemyZ/mC0sdb6AzrpXXQZ71OWd2aWZThvJnbOb5OT3qkW+ij1fT/FotrFREovaCjVCcbULN/W0oE+hl8fRGkf/p5afwybb5q9s91g6bpSY+mOXpgFGVblWZZC2957SwHntxZgYisCauGmQ83AdjLcfo6wTHaWMsdAQuT9AAAAABJRU5ErkJggg=="
+                  alt="linkedIN"/>
+                {/* <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect x="1" y="0.98877" width="36.1825" height="36.1825" rx="18.0913" stroke="white"/>
-                </svg>
+                </svg> */}
 
                 </div>
+
                 <div className="facebook-container">
-                <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <img className="facebook"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJ2SURBVHgBzVjBbdtAEFwJ+eRlpgJTFYSpIHzmE0SpQE4FcgEBwg6cVCClgrgDyRVIrkAMAgT5Wa7gMmvO2SeBkLhHyuYAA0l33OXc8m61y4G0gHMuxUcGnoNvgqmSXA8Gg61EYCBGQEyOjzE4AfWma/A3v3u8BRNQr12Cc/AGIkvpGioIXIArsGC0mtrNXYVZU7smjtNAUC6RoB9d0B34TdoADsbgBryUjhAsdBEVPV0VRWVyAjB6G5O4QFRzowiYxAWP7/jFHYDiVscuSk/5+A7c9xd4degCPdaFxDn/yA39B/ynNNgmPK153WSm0ZIIwO6rq4HRx4UurG5CwzkRI2DzGvzbVhh9bXai5veWRICZPYQ6/wC+EyM0X+5EjQMziUCNsEIiEey1ZMixT+BPeWGwEtGiIPPCMg70Abei1QtP48pqzdTQBKnRr57Oa42Y1k1RxVwDzCNqMH1y50M5LWL2rQYp8RG7Fzs+gyPwy974D46PEK2lROIVFZ6JETxBW+yHcm9q27KETtWHRqzkjz5hO+TqNPMn0g9o6rr1m3/JgT7gPbjwwm6karX6gFz2IjaVF4YmV6ma5PJBGI/12rVozzqCll3znRFWCQsxwnVUXfCv6LH0esz8Phm6DntII7QJLmpn3FMzkooBtPM0px1XtYuzYxddUtyz5DXcZ+oMvWXhqncVJxUH/xMX0Y3bW3ibqCnLaHtiD8SZu6cDPrWuv2q9aKYDdTJrGz2fEsDvnW2TIHoqcGywS3jq7liO503sYl51XkiVoX0Do82DJsaw2DzjfC5VIaqV7LWlcDQLCwQmvLm+bx3JbrF5T9H6vxfVff0HoEPBkEXc6TIAAAAASUVORK5CYII="
+                  alt="fb"/>
+                {/* <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <rect x="1.18256" y="0.989258" width="36.1825" height="36.1825" rx="18.0913" stroke="white"/>
-                </svg>
+                </svg> */}
                 </div>
+
                 <div className="twitter-container">
-                <svg width="39" height="38" viewBox="0 0 39 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                {/* <svg width="39" height="38" viewBox="0 0 39 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <rect x="1.36505" y="0.928223" width="36.1825" height="36.1825" rx="18.0913" stroke="white"/>
-                </svg>
+                </svg> */}
+                {/* <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="white" version="1.1" id="Capa_1" width="39px" height="38px" viewBox="0 0 39 38" xml:space="preserve">
+                  <g>
+                    <path d="M30.414,10.031c0.014,0.297,0.021,0.595,0.021,0.897c0,9.187-6.992,19.779-19.779,19.779c-3.928,0-7.58-1.149-10.657-3.123   c0.546,0.063,1.099,0.095,1.658,0.095c3.26,0,6.254-1.107,8.632-2.974c-3.039-0.058-5.607-2.065-6.491-4.828   c0.424,0.082,0.858,0.125,1.308,0.125c0.635,0,1.248-0.084,1.83-0.244c-3.177-0.639-5.576-3.448-5.576-6.815   c0-0.029,0-0.058,0-0.087c0.939,0.521,2.01,0.833,3.15,0.869C2.646,12.48,1.419,10.35,1.419,7.938c0-1.274,0.343-2.467,0.94-3.495   c3.427,4.206,8.552,6.973,14.327,7.263c-0.117-0.509-0.18-1.038-0.18-1.584c0-3.838,3.112-6.949,6.953-6.949   c1.998,0,3.805,0.844,5.07,2.192c1.582-0.311,3.072-0.89,4.416-1.686c-0.521,1.624-1.621,2.986-3.057,3.844   c1.406-0.166,2.746-0.54,3.991-1.092C32.949,7.826,31.771,9.05,30.414,10.031z"/>
+                  </g>
+                </svg> */}
 
+                <img className="twitter"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAmCAYAAABH/4KQAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAM+SURBVHgBvVg9aBRBFH4bxFIv2Amas0hj41paeSDYWHithdwJgqVBQQtRT7GwMCpYWAia2KiNmIBgod4JCmKhCVgp5M5C7HKJEEuf37t9422O2d2Z3c198LG7M2/efPNmZucnoAJg5ioeNXAnOAlOgT80e0kYBEGPciIgT0BQDY862ADXwA64ru89sApWVGioxcTmWhGhmaLANtgFWxo1l3Kh2ne1fEhlQUTERNWoAFC+qX4euTYuzVmozu6CFSoB4kf9dXMLRMEG2C8arRT/MyrQr5tRoF6oZe71hF4CdYxtubBYfTXtoaqLsQiboTFCu7idZXRVZhKVV+kUuMPRtp0YFO1OtoXXZ6bCdrs2ss9DfAWPGl/gaTCw1N+31oXEuaSoIf2+VEhu4p6yHX/Bz/p+LqGsaGjZMrpJg1JDLrhB6cKanI334E3wuKX8YHKMJtbTBiTyPsScf0tpxCK7oZVSV5f13zqhabKQL1AyPsXep0Fx8Bg8MmI3Tdm4hQ1AKyVfdNTi4g5QtMVJwiz4eyTtJPgaAn+Br8Db+N5G2fiZkd+h4W5mEEpB4oxE3mXwCrjBxXGCUsC6CJgPmdr9jAIvuDxkLlViJE/pVonYWob9AyoHqxhvS67GEy5GcPgSj+tUHIte1trHfQe7CY7+Y985Pw6RA0y3mg/7srG5QIU3L0m+eEZuwgbbKHk33dqj6GCSCHStjMvzlA8b4EVH24rq+S/uHemPLw0Q+BCPY+Ay+eGUx8mrrnoisJ6sHAuLfQDOOnZny8Ov8AvHjwax8ZQ17vaCF8AVB1Hi7wx5QMfbii2jZWsl0naB8+A6u+OJNIT8hJktU8OWKdHrJkUP6fvBe+BHi5g/4Bvwkq+omP/0s4tGL3ObztGY26MOd1NBxKI2k2ZkotegMUGFnbWONYtxyGM6GqqwgxxNsKproeZWC4wJW+Ucp34jsLxboaEoGbN1jViT8oCjn7MIdDp5OQqbBO+osGIN1xk5l3eiqCATrZqKes4l3VqZSkw3D0S6jEcVtI+jQ7aIesset1Z5r12boJw7e8plfRpUKbp2PUzRLmMeXMDi3yEPeIsbERqqkFDFGMildQ/sFLkH/gfq81MUi0Dv6AAAAABJRU5ErkJggg=="
+                alt="tweet"/>
                 
 
                 </div>
+
                 <div className="instagram-container">
-                
+                <img className="instagram"
+                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAANsSURBVHgBvVj/VdtADJZ5/A8b4E6AN6g7AZmgMRMAEyQbBCZImKDtBEkXqMMEcRdoYAFUKfcZXxz7fviF6D09J7ak+ySddLITGkjMfCmXTDgF17QVfhGukiSpaCAlMcIAcyecA1QlvBb+a4mpzDWevwqvhJ8E5JqOTQIoFV4Ib4UfhfNAvUz4TngjvAzVCwU1geEpIjbUTgE7c3WUhhKiVMLTlI5EcFABZhRLALWLEn0CaUphfxyjVIMq6BPJWscPTvcQhO/pBGSBy3yCWnmPdEKS9UYAt1dYiSVQyGUi/eZLoEE15KzS0AaLYLDIP3Q9VNQjjwEN/Qz9rKZ3dtPS17+whbZ29Sd4UMhlLIi/uUDJpSQTpRWZrq8dn21bFtUnQI7/D2L/0WF/qjoic2/fXPqqAxFljuze1gZndvRDq/Au9xQ9xnOkbEbhgHRT/9MKhz77CgsBKvT3GZlQv3jW+UomVb86jKljEzZHzcyK6BWZdF5JelZkpo4rzzrPWOujRTj7Fptj5CAVAMQdhTBHavI6NUiTLzNN9gKrZtEGpnsS98pan5sp5CDt8v+PDxjktjtn4EnqEZ5jsdS6V/bpwllmq2niXgiwnU3dYymZgc5FCe0343p6Xfc0Ud0r2kZuKJ4qxXS2WzVJfMDaVEeiT0/vJ63nTBGkwCpfKtuEKOmiI+4eHkcAYld76Biv9l7PsIBvMmU69HgqfCE8rx1DJeqm/y78PPBlJCVNJ6qocEmiP713tIuZ1So23JyhZYesPi8962hVa7+jczJvOb4x9w3X/dFEpgExpOm6gadqa0UmWu39p7oVuUlx/D5A2UfcHCkTGkBYQ8l3JGn2xvaNpavJcjOWbGMLBbolgGUe2Q/757inZ6BGY9WloGkRhVv5+UNY98qCTNre+tYgU4U69hRkimTqeunFPv+5VzBWRHJye5RZ3oeQFoxOGHfkIW6dInY314P8xjUs2o5QUzBM/T0q6PsF9m4qsrd9Aks+0RuStWbKvvPaEsrptKBGIcIZD32FHwZqGqOUBXtyKlAdyoOaqsPuGB1g+F7mZiLdcMwHkG5bOYqrPNo24eY1fgOP00C9SwtQVJRiP3XmZDq5HtoVme7fPgG0y+tnhvpzpz5/El7FDKRRwDpAXgPEhfVIQepsr1PHesB0vKP/5bUtLeW/KUEAAAAASUVORK5CYII=" 
+                 alt="insta"/>
+
 
                 </div>
               </div>
@@ -196,11 +218,12 @@ function Footer() {
                     </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div className="copyright-container">
+            </div></div>
+            <div className="copyright-container">
             <p> Copyright 2020-2022 </p>
           </div>
+          </div>
+          
         </div> 
       </div>
     </>

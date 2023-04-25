@@ -213,13 +213,35 @@ line-height: 24px;
     height: 401px;
     color: #f4f7fe ;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding: 66px 66px 6px 66px;
+    row-gap: 20px;
+
+}
+
+.top-footer-container{
+    display: flex;
 
 }
 
 .logo-social-media-container{
     display: flex;
     flex-direction: column;
+}
+
+.Logo-container{
+    height:77px;
+    width: 544px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    background-color: #090909;
+}
+
+.baladi{
+    height: 95px;
+    width: 95px;
+    background-color: #090909;
 }
 
 .socialMedia-container{
