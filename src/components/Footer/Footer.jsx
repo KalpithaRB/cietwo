@@ -55,7 +55,7 @@ export function ContactUs() {
           </div>
 
           <div className="connectUs-container">
-            <span className="connect-us"> Connect Us</span>
+            <span className="connect-us"> Connect with Us</span>
             <div className="icons-container">
             <svg width="34" height="32" viewBox="0 0 34 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="33.336" height="31.9972" rx="15.9986" fill="white"/>
@@ -104,7 +104,7 @@ export function ContactUs() {
         </div>
         <div className="button-container">
             <button className="connect-button">
-               <label><strong>Connect</strong></label> 
+               <label>CONNECT</label> 
             </button>
         </div>
       </div>

@@ -19,14 +19,14 @@
     flex-direction: column;
     background-color: #f5a023;
     color: #090909;
-    height: 603px;
+    height: 583px;
     width: 500px;
     row-gap: 35px;
     padding-top: 20px;
 }
 
 .contact-information-container{
-    font-family: 'Roboto';
+    /* font-family: 'Roboto'; */
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -109,10 +109,11 @@
     flex-direction: column;
     justify-content: center;
     height: 138.35px;
-    width: 73.5px;
+    /* width: 73.5px; */
     position: absolute;
     left: 376px;
     top: 500px;
+    row-gap: 10px;
    
     
 
@@ -121,7 +122,7 @@
 .connect-us{
     color: #353535;
     opacity: 0.8;
-    font-family: 'Roboto';
+    /* font-family: 'Roboto'; */
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -130,13 +131,14 @@ line-height: 24px;
 
 .icons-container{
     display: flex;
+    column-gap: 5px;
 }
 
 
 /* Form container */
 .title-container{
     color: #090909;
-    font-family: 'Roboto';
+    /* font-family: 'Roboto'; */
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -184,6 +186,11 @@ line-height: 24px;
 
 .message-fillups{
     height: 84px;
+    border-radius: 2px;
+    background: #FFFFFF;
+    border: 1px solid rgba(9, 9, 9, 0.3);
+    box-shadow: none;
+    box-sizing: border-box;
 }
 
 .message-fillups.placeholder{
@@ -242,14 +249,34 @@ line-height: 24px;
 }
 
 .baladi{
-    height: 95px;
+    height: 73px;
     width: 95px;
-    background-color: #090909;
+    
 }
 
 .socialMedia-container{
     display: flex;
-    column-gap: 2px;
+    column-gap: 20px;
+}
+
+.linkedin{
+    height: 50px;
+    width: 50px;
+}
+
+.facebook{
+    height: 50px;
+    width: 50px;
+}
+
+.twitter{
+    height: 50px;
+    width: 50px;
+}
+
+.instagram{
+    height: 50px;
+    width: 50px;
 }
 
 .quickLinks-container{
@@ -260,7 +287,7 @@ line-height: 24px;
 
 .links-title-container{
     color: #f4f7fe;
-    font-family: 'Roboto';
+    /* font-family: 'Roboto'; */
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -286,7 +313,7 @@ line-height: 24px;
 
 .reachus-title-container{
     color: #f4f7fe;
-    font-family: 'Roboto';
+    /* font-family: 'Roboto'; */
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
