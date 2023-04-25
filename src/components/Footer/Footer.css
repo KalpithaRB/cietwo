@@ -222,6 +222,7 @@ line-height: 24px;
 
 .top-footer-container{
     display: flex;
+    column-gap: 80px;
 
 }
 
@@ -249,6 +250,11 @@ line-height: 24px;
     column-gap: 2px;
 }
 
+.quickLinks-container{
+    display: flex;
+    flex-direction: column;
+}
+
 .links-title-container{
     color: #f4f7fe;
     font-family: 'Roboto';
@@ -258,11 +264,7 @@ line-height: 24px;
     line-height: 18px;
 }
 
-.links-container{
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
-}
+
 
 .quicklinks{
     text-decoration: none;
@@ -273,6 +275,10 @@ line-height: 24px;
     color: #f5a023;
 }
 
+.ReachUs-container{
+    display: flex;
+    flex-direction: column;
+}
 
 .reachus-title-container{
     color: #f4f7fe;
@@ -281,6 +287,31 @@ line-height: 24px;
     font-weight: 500;
     font-size: 24px;
     line-height: 18px;
+    text-align: left;
+}
+
+.links-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.svg-icon-container{
+width: 18px;
+height: 18px;
+}
+
+.call-container{
+    display: flex;
+    
+}
+
+.message-container{
+    display: flex;
+}
+
+.address-container{
+    display: flex;
 }
 
 
