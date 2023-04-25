@@ -106,6 +106,7 @@
 
 .connectUs-container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     height: 138.35px;
     width: 73.5px;
@@ -115,6 +116,10 @@
     color: #353535;
     
 
+}
+
+.icons-container{
+    display: flex;
 }
 
 
