@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import './baladi.png'
+import baladi from'./assets/baladi.png';
 
 export function ContactUs() {
   return (
@@ -118,20 +118,40 @@ function Footer() {
     <>
       <div className="footer-layout-container">
         <ContactUs />
-        {/* <div className="footer-copyright-container">
+         <div className="footer-copyright-container">
           <div className="Footer-container">
             {/* <p>happy</p> */}
-            {/* <div className="logo-social-media-container">
+            <div className="logo-social-media-container">
               <div className="Logo-container">
-                <img src='./baladi.png' alt="baladi"/>
+                <img src={baladi} alt="baladi"/>
               </div>
               <div className="socialMedia-container">
-                <div className="linkedin-container"><p>linkedin</p></div>
-                <div className="facebook-container"><p>fb</p></div>
-                <div className="twitter-container"><p>twitter</p></div>
-                <div className="instagram-container"><p>instagram</p></div>
+                <div className="linkedin-container">
+                <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="1" y="0.98877" width="36.1825" height="36.1825" rx="18.0913" stroke="white"/>
+                </svg>
+
+                </div>
+                <div className="facebook-container">
+                <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="1.18256" y="0.989258" width="36.1825" height="36.1825" rx="18.0913" stroke="white"/>
+                </svg>
+                </div>
+                <div className="twitter-container">
+                <svg width="39" height="38" viewBox="0 0 39 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="1.36505" y="0.928223" width="36.1825" height="36.1825" rx="18.0913" stroke="white"/>
+                </svg>
+
+                
+
+                </div>
+                <div className="instagram-container">
+                
+
+                </div>
               </div>
             </div>
+
             <div className="quickLinks-container">
               <div className="links-title-container">
                 <p><strong>Quick Links</strong></p>
@@ -180,8 +200,8 @@ function Footer() {
           </div>
           <div className="copyright-container">
             <p> Copyright 2020-2022 </p>
-          </div> */}
-        {/* </div> */} 
+          </div>
+        </div> 
       </div>
     </>
   );
