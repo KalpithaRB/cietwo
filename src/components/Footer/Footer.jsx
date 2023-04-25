@@ -20,8 +20,8 @@ export function ContactUs() {
 
                 </div>
                 <div className="details-container">
-                    <span>Email</span>
-                    <span>sales@delightcapitals.com</span>
+                    <span className="d1">Email</span>
+                    <span className="d2">sales@delightcapitals.com</span>
                 </div>
             </div>
             <div className="phone-container">
@@ -32,8 +32,8 @@ export function ContactUs() {
 
             </div>
                 <div className="details-container">
-                    <span> Phone </span>
-                    <span> +91 8792694702 | +91 8496894702</span>
+                    <span className="d1"> Phone </span>
+                    <span className="d2"> +91 8792694702 | +91 8496894702</span>
                     
                 </div>
             </div>
@@ -46,9 +46,9 @@ export function ContactUs() {
 
                
                 </div>
-                <div className="details-container">
-                    <span> Location</span>
-                    <span> No-657, 3rd Stage, 3rd Block, Basaveshwara Nagar, Bangalore -560079</span>
+                <div className="details1-container">
+                    <span className="d1"> Location</span>
+                    <span className="d2"> No-657, 3rd Stage, 3rd Block, Basaveshwara Nagar, Bangalore -560079</span>
 
                 </div>
             </div>

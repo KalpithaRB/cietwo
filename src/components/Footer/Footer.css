@@ -38,6 +38,8 @@
     display: flex;
     flex-direction: column;
     row-gap: 45px;
+    height: 215px;
+    width: 410px;
 }
 
 .description-container{
@@ -45,8 +47,11 @@
     flex-direction: column;
     text-align: flex-start;
     flex-wrap: wrap;
-    align-content: center;
+    align-content: initial;
     row-gap: 30px;
+    height: 215px;
+    width: 410px;
+    
 }
 
 .svg-icon-container{
@@ -58,9 +63,20 @@
     flex-direction: column;
     text-align: initial;
     flex-wrap: wrap;
-    align-content: center;
+    /* align-content: center; */
     font-size: 14px;
-    height: 41px;
+    height: 45px;
+    width: 303px;
+}
+
+.details1-container{
+    display: flex;
+    flex-direction: column;
+    text-align: initial;
+    flex-wrap: wrap;
+    /* align-content: center; */
+    font-size: 14px;
+    /* height: 45px; */
     width: 303px;
 }
 
@@ -77,12 +93,31 @@
 .location-container{
     display: flex;
     column-gap: 20px;
+    
+}
+
+.d1{
+    font-size: 14px;
+}
+
+.d2{
+    font-size: 16px;
 }
 
 .connectUs-container{
     display: flex;
     justify-content: center;
+    height: 138.35px;
+    width: 73.5px;
+    position: absolute;
+    left: 376px;
+    top: 500px;
+    color: #353535;
+    
+
 }
+
+
 /* Form container */
 .title-container{
     color: #090909;
