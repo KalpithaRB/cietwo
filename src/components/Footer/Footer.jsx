@@ -179,10 +179,10 @@ function Footer() {
                 <p><strong>Quick Links</strong></p>
               </div>
               <div className="links-container">
-                <a href="/">Home</a>
-                <a href="/">About</a>
-                <a href="/"> Properties</a>
-                <a href="/"> Contact Us</a>
+                <a  className="quicklinks" href="/">Home</a>
+                <a className="quicklinks"  href="/">About</a>
+                <a className="quicklinks"  href="/"> Properties</a>
+                <a className="quicklinks"  href="/"> Contact Us</a>
               </div>
             </div>
             <div className="ReachUs-container">

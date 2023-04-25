@@ -258,6 +258,22 @@ line-height: 24px;
     line-height: 18px;
 }
 
+.links-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.quicklinks{
+    text-decoration: none;
+    color: #f4f7fe;
+}
+
+.quicklinks:hover{
+    color: #f5a023;
+}
+
+
 .reachus-title-container{
     color: #f4f7fe;
     font-family: 'Roboto';
