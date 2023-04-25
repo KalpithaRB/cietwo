@@ -8,7 +8,7 @@ export function ContactUs() {
       
       <div className="contact-info-container">
         <div className="contact-information-container">
-          <p><strong> Contact Information</strong></p>
+          <span><strong> Contact Information</strong></span>
         </div>
         <div className="reachUs-container">
           <div className="description-container">
@@ -20,8 +20,8 @@ export function ContactUs() {
 
                 </div>
                 <div className="details-container">
-                    <p>Email</p>
-                    <p>abcd@gmail.com</p>
+                    <span>Email</span>
+                    <span>sales@delightcapitals.com</span>
                 </div>
             </div>
             <div className="phone-container">
@@ -32,9 +32,9 @@ export function ContactUs() {
 
             </div>
                 <div className="details-container">
-                    <p> Phone </p>
-                    <p> +91 2345783757</p>
-                    <p> +91 89374837283</p>
+                    <span> Phone </span>
+                    <span> +91 8792694702 | +91 8496894702</span>
+                    
                 </div>
             </div>
             <div className="location-container">
@@ -47,8 +47,8 @@ export function ContactUs() {
                
                 </div>
                 <div className="details-container">
-                    <p> Location</p>
-                    <p> near a papaya tree </p>
+                    <span> Location</span>
+                    <span> No-657, 3rd Stage, 3rd Block, Basaveshwara Nagar, Bangalore -560079</span>
 
                 </div>
             </div>
@@ -102,10 +102,10 @@ function Footer() {
     <>
       <div className="footer-layout-container">
         <ContactUs />
-        <div className="footer-copyright-container">
+        {/* <div className="footer-copyright-container">
           <div className="Footer-container">
             {/* <p>happy</p> */}
-            <div className="logo-social-media-container">
+            {/* <div className="logo-social-media-container">
               <div className="Logo-container">
                 <img src='./baladi.png' alt="baladi"/>
               </div>
@@ -164,8 +164,8 @@ function Footer() {
           </div>
           <div className="copyright-container">
             <p> Copyright 2020-2022 </p>
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */} 
       </div>
     </>
   );
