@@ -250,12 +250,23 @@ line-height: 24px;
 }
 
 .links-title-container{
-
+    color: #f4f7fe;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 18px;
 }
 
 .reachus-title-container{
-
+    color: #f4f7fe;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 18px;
 }
+
 
 .copyright-container{
     /* border-top: 1px #f4f7fe ; */

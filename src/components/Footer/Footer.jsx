@@ -179,10 +179,10 @@ function Footer() {
                 <p><strong>Quick Links</strong></p>
               </div>
               <div className="links-container">
-                <span>Home</span> <br/>
-                <span>About</span> <br/>
-                <span> Properties</span> <br/>
-                <span>Contact Us</span>
+                <a href="/">Home</a>
+                <a href="/">About</a>
+                <a href="/"> Properties</a>
+                <a href="/"> Contact Us</a>
               </div>
             </div>
             <div className="ReachUs-container">
@@ -193,34 +193,48 @@ function Footer() {
 
                 <div className="call-container">
                     <div className="svg-icon-container">
-                    
+                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12.9225 9.93408L11.0175 9.71658C10.56 9.66408 10.11 9.82158 9.7875 10.1441L8.4075 11.5241C6.285 10.4441 4.545 8.71158 3.465 6.58158L4.8525 5.19408C5.175 4.87158 5.3325 4.42158 5.28 3.96408L5.0625 2.07408C4.9725 1.31658 4.335 0.746582 3.57 0.746582H2.2725C1.425 0.746582 0.72 1.45158 0.7725 2.29908C1.17 8.70408 6.2925 13.8191 12.69 14.2166C13.5375 14.2691 14.2425 13.5641 14.2425 12.7166V11.4191C14.25 10.6616 13.68 10.0241 12.9225 9.93408Z" fill="white"/>
+                    </svg>
+
+
                     </div>
                     <div className="details-container">
-                    <p> +91 2345783757</p>
-                    <p> +91 89374837283</p>
+                    <span>+918496894702  |  +91872694702</span>
                     </div>
                 </div>
 
                 <div className="message-container">
                 <div className="svg-icon-container">
+                <svg width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M15 0.489258H0V12.4893H15V0.489258ZM13.5 3.48926L7.5 7.23926L1.5 3.48926V1.98926L7.5 5.73926L13.5 1.98926V3.48926Z" fill="white"/>
+                </svg>
+
+
                 </div >
                 <div className="details-container">
-                    <p> abc@gmail.com</p>
+                    <span> sunilraj@baladibuilders.com</span>
                     </div>
                 </div>
 
                 <div className="address-cotnainer ">
                 <div className="svg-icon-container">
+                <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8 0.489258C6.0116 0.491592 4.10531 1.27876 2.6993 2.67808C1.29328 4.07739 0.502354 5.97461 0.500008 7.95354C0.497626 9.57073 1.0284 11.144 2.01092 12.4321C2.01092 12.4321 2.21546 12.7002 2.24887 12.7388L8 19.4893L13.7539 12.7354C13.7839 12.6995 13.9891 12.4321 13.9891 12.4321L13.9898 12.4301C14.9718 11.1426 15.5023 9.56999 15.5 7.95354C15.4976 5.97461 14.7067 4.07739 13.3007 2.67808C11.8947 1.27876 9.9884 0.491592 8 0.489258ZM8 10.6678C7.4606 10.6678 6.93331 10.5086 6.48481 10.2104C6.03631 9.91214 5.68675 9.48823 5.48033 8.99226C5.27391 8.49628 5.2199 7.95053 5.32513 7.42401C5.43037 6.89749 5.69011 6.41385 6.07153 6.03425C6.45294 5.65465 6.9389 5.39614 7.46794 5.29141C7.99697 5.18668 8.54534 5.24043 9.04368 5.44587C9.54202 5.65131 9.96797 5.99921 10.2676 6.44557C10.5673 6.89193 10.7273 7.41671 10.7273 7.95354C10.7264 8.67314 10.4387 9.36301 9.92747 9.87184C9.41621 10.3807 8.72304 10.6669 8 10.6678Z" fill="white"/>
+                </svg>
+
+
                 </div>
                 <div className="details-container">
-                    <p>near canra office</p>
+                    <span> No-657, 3rd Stage, 3rd Block, Basaveshwara Nagar, 
+                      Bangalore -560079</span>
                     
                     </div>
                 </div>
               </div>
             </div></div>
             <div className="copyright-container">
-            <p> Copyright 2020-2022 </p>
+            <span> Copyright 2020-2022  BALADI BUILDERS & DEVELOPERS  All Rights Reserved</span>
           </div>
           </div>
           
