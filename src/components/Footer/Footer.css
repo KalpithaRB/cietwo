@@ -1,9 +1,7 @@
 /* form container */
 .feedback-form-container{
     display: flex;
-    background-color: #FFFFFF;
-    border: 1px solid rgba(9, 9, 9, 0.3);
-    border-radius: 10px 0px 0px 10px;
+    background-color: #f4f7fe;
     height: 603px;
     width: 1040px;
     
@@ -11,8 +9,6 @@
     margin-left: 200px;
     margin-bottom: 89px;
     margin-top: 98.5px;
-
-    
     
 
 
@@ -37,18 +33,15 @@
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
-    margin-left: 50px;
-    display: flex;
 
 }
 
 .reachUs-container{
     display: flex;
     flex-direction: column;
-    row-gap: 145px;
+    row-gap: 45px;
     height: 215px;
     width: 410px;
-
 }
 
 .description-container{
@@ -111,18 +104,6 @@
 
 .d2{
     font-size: 16px;
-    font-weight: 500;
-    
-}
-
-.d2-email{
-    font-size: 16px;
-    text-decoration: underline;
-    font-weight: 500;
-}
-
-.d2-email:hover{
-    cursor: pointer;
 }
 
 .connectUs-container{
@@ -135,7 +116,7 @@
     left: 376px;
     top: 500px; */
     margin-left: 150px;
-    row-gap: 20px;
+    row-gap: 10px;
     text-align: initial;
    
     
@@ -144,18 +125,17 @@
 
 .connect-us{
     color: #353535;
-    opacity: 0.9;
+    opacity: 0.8;
     /* font-family: 'Roboto'; */
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 24px;
-margin-left: 20px;
 }
 
 .icons-container{
     display: flex;
-    column-gap: 15px;
+    column-gap: 5px;
 }
 
 
@@ -173,18 +153,10 @@ margin-left: 20px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    /* width: 500px; */
-    margin-left: 50px;
+    width: 500px;
+    margin-left: 100px;
     margin-top: 20px;
     row-gap: 30px;
-    /* gap: 50px; */
-    width: 425px;
-    height: 506px;
-
-    /* padding: 0px;
-    
-
-         */
 }
 
 .inputfields-container{
@@ -195,7 +167,7 @@ margin-left: 20px;
 .formy{
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
+    row-gap: 40px;
 }
 
 .title{
@@ -204,10 +176,6 @@ margin-left: 20px;
     text-align: initial;
     font-size: 14px;
     row-gap: 4px;
-
-    font-weight: 400;
-    /* font-size: 14px; */
-    line-height: 22px;
 }
 
 .fillups{
@@ -260,11 +228,7 @@ margin-left: 20px;
     /* justify-content: space-between; */
     padding: 66px 66px 6px 66px;
     row-gap: 110px;
-    column-gap: 100px;
     align-items: center;
-    justify-content: flex-start;
-    align-content: flex-start;
-    flex-wrap: wrap;
 
 }
 
@@ -281,7 +245,7 @@ margin-left: 20px;
 
 .Logo-container{
     height:77px;
-    width: 344px;
+    width: 544px;
     margin-left: 10px;
     margin-bottom: 50px;
     background-color: #090909;
@@ -289,19 +253,8 @@ margin-left: 20px;
 }
 
 .baladi{
-    /* height: 73px;
-    width: 95px; */
-
-    width: 109px;
-height: 84px;
-
-background: black;
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+    height: 73px;
+    width: 95px;
     
 }
 
@@ -333,7 +286,7 @@ flex-grow: 0;
 .quickLinks-container{
     display: flex;
     flex-direction: column;
-    row-gap: 15px;
+    row-gap: 5px;
 }
 
 .links-title-container{
@@ -360,7 +313,6 @@ flex-grow: 0;
 .ReachUs-container{
     display: flex;
     flex-direction: column;
-    row-gap: 15px;
 }
 
 .reachus-title-container{
@@ -421,7 +373,7 @@ height: 18px;
 
 .copyright-container{
     /* border-top: 1px #f4f7fe ; */
-    width: 1387px;
+    width: 1000px;
     /* background-color: #090909; */
     color: #f4f7fe;
     display: flex;
