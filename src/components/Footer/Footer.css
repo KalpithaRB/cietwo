@@ -18,6 +18,8 @@
     display: flex;
     flex-direction: column;
     background-color: #f5a023;
+    border: 1px solid #AA7A26;
+    border-radius: 10px 0px 0px 10px;
     color: #090909;
     height: 583px;
     width: 500px;
@@ -110,10 +112,12 @@
     justify-content: center;
     height: 138.35px;
     /* width: 73.5px; */
-    position: absolute;
+    /* position: absolute;
     left: 376px;
-    top: 500px;
+    top: 500px; */
+    margin-left: 150px;
     row-gap: 10px;
+    text-align: initial;
    
     
 
