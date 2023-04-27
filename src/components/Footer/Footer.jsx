@@ -210,7 +210,7 @@ function Footer() {
                 </div>
               </div>
             </div>
-
+                <div className="footer-links">
             <div className="quickLinks-container">
               <div className="links-title-container">
                 Quick Links
@@ -269,7 +269,7 @@ function Footer() {
                     </div>
                 </div>
               </div>
-            </div></div>
+            </div></div></div>
             <div className="copyright-container">
             <span className="copyrights"> Copyright 2020-2022  BALADI BUILDERS & DEVELOPERS  All Rights Reserved</span>
           </div>

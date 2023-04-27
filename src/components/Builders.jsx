@@ -5,15 +5,22 @@ import Last from './Components/About2.jsx'
 import './Builders.css'
 import Footer from './Footer/Footer.jsx'
 
+export function AboutUs(){
+    return(
+        <>
+        <Whyus/>
+        <About/>
+        <Next/>
+        <Last/></>
+    );
+}
+
 export default function Builders(){
     return(
         <>
-        <div className="About-page">
-      <Whyus />
-      <About />
-      <Next />
-      <Last />
-    </div>
+        {/* <div className="About-page">
+      <AboutUs/>
+    </div> */}
     <div className='footer'>
         <Footer/>
     </div></>
