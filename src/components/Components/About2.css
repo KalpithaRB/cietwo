@@ -1,3 +1,5 @@
+@media only screen and (min-width: 1024px) and (max-width: 1950px){
+
 .part {
     height: 293px;
     display: flex;
@@ -195,5 +197,7 @@ p{
     width: 471px;
     margin-left: -3px;
     /* margin-top: -33px; */
+
+}
 
 }

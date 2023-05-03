@@ -18,9 +18,9 @@ export function AboutUs(){
 export default function Builders(){
     return(
         <>
-        {/* <div className="About-page">
+        <div className="About-page">
       <AboutUs/>
-    </div> */}
+    </div>
     <div className='footer'>
         <Footer/>
     </div></>
