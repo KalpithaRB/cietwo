@@ -1,7 +1,9 @@
 
 import './App.css';
-// import Footer from './components/Footer/Footer';
-import Builders from './components/Builders';
+
+// import Navbar from './components/Components/sami components/navbar/navbar';
+import Footer from './components/Footer/Footer';
+// import Builders from './components/Builders';
 // import React, { useState, useEffect } from 'react';
 
 function App() {
@@ -25,8 +27,9 @@ function App() {
 
   return (
      <div className="App" >
-    
-      <Builders/>
+    {/* <Navbar/> */}
+      {/* <Builders/> */}
+      <Footer/>
       
     </div>
   );//<div className={`App ${isSmallScreen ? 'small-screen' : ''}`}>

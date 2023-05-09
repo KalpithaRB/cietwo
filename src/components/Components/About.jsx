@@ -6,7 +6,6 @@ export default function About(){
         <div className='about'>
         <div className='About-container'>About Us</div>
         <div className='part1'>
-            
             <div className='text-1'>
                 <div className='t1'>We <span className='we'>Build</span> Everything</div>
                 <div className='t2'><p>The design of buildings and the space within the site surrounding the buildings that have human occupancy or use as their principal purpose.The design of buildings and the space within the site surrounding the buildings that have human occupancy.</p></div>

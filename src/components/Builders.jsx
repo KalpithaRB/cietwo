@@ -4,6 +4,7 @@ import Next from './Components/About1.jsx';
 import Last from './Components/About2.jsx'
 import './Builders.css'
 import Footer from './Footer/Footer.jsx'
+import Navbar from './Components/sami components/navbar/navbar.js';
 
 export function AboutUs(){
     return(
@@ -17,12 +18,14 @@ export function AboutUs(){
 
 export default function Builders(){
     return(
-        <>
-        <div className="About-page">
-      <AboutUs/>
-    </div>
+        
+    //     <div className="About-page">
+    //   <AboutUs/>
+    // </div><>
     <div className='footer'>
-        <Footer/>
-    </div></>
+        <Footer/> <div><div></>
+        {/*
+    //         <Navbar/>
+    // </div></> */}
     );
 }
